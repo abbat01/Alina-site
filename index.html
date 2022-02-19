@@ -11,6 +11,9 @@
         href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
         rel="stylesheet" />
     <link rel="stylesheet" href="./burger.css">
+    <link rel="stylesheet" href="./carousel.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <title>ZERNO</title>
 </head>
 
@@ -61,18 +64,65 @@
                     </nav>
                 </div>
                 <div class="main-image">
-                    <div class="text-wrapper">
-                        <h1 class="text-wrapper-item none">Обжариваем и варим
+                    <div class="text-wrapper text-wrapper__pos">
+                        <h1 class="text-wrapper-item text-wrapper-item__pos">Обжариваем и варим
                             лучший кофе в Минске</h1>
-                        <p class="text-wrapper-item none">Ароматный кофе, свежая выпечка и хорошее
+                        <p class="text-wrapper-item text-wrapper-p text-wrapper-item__pos">Ароматный кофе, свежая
+                            выпечка и хорошее
                             настроение всегда ждут вас в нашей кофейне</p>
-                        <button class="button none">ЗАБРОНИРОВАТЬ СТОЛИК</button>
+                        <button class="button" type="button">ЗАБРОНИРОВАТЬ СТОЛИК</button>
                     </div>
 
                 </div>
             </div>
         </div>
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="about-image">
+                    <img src="./assets/images/image 6.png" alt="coffee-with-love-image" width="450px" height="485px">
+                </div>
+                <div class="about-text-wrapper">
+                    <h2 class="about-text-wrapper-item about-text-wrapper-item__pos main-about-text">Делаем всё с
+                        любовью</h2>
+                    <p class="about-text-wrapper-item about-text-wrapper-item__pos about-p">ZERNO — это уютная кофейня в
+                        центре
+                        города. Наши ценности —
+                        комфорт, скорость обслуживания, вкус и качество кофе. У нас вы попробуете вкусные
+                        и сытные завтраки, а ещё классические десерты и сэндвичи. Здесь вы можете комфортно поработать,
+                        провести деловую или дружескую встречу.</p>
+                    <button class="button about-text-wrapper-item__pos button-about">ПОДРОБНЕЕ</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="menu-wrapper">
+                <div class="main-menu-text main-menu-text__pos">
+                    <p>Меню</p>
+                </div>
+                <div class="nav-menu-coffee">
+                    <ul class="nav-menu-items">
+                        <li class="nav-menu-item nav-menu-item__pos">Кофейные напитки</li>
+                        <li class="nav-menu-item nav-menu-item__pos">Согревающие напитки</li>
+                        <li class="nav-menu-item nav-menu-item__pos">Домашние чаи</li>
+                        <li class="nav-menu-item nav-menu-item__pos">Выпечка</li>
+                        <li class="nav-menu-item">Завтраки</li>
+                    </ul>
+                </div>
+                <div class="carousel carousel__pos">
+                    <ul class="list">
+                        <li class="hide"></li>
+                        <li class="prev"></li>
+                        <li class="act"></li>
+                        <li class="next"></li>
+                        <li class="next new-next"></li>
+                    </ul>
+
+                    <div class="swipe"></div>
+                </div>
+            </div>
+        </div>
     </main>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://kit.fontawesome.com/a8ea63a06c.js" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
 </body>
