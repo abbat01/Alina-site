@@ -76,6 +76,7 @@ body {
 .header-wrapper {
     display: flex;
     text-align: center;
+    flex-wrap: wrap;
 }
 .header__pos {
     margin-top: 20px;
