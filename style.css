@@ -88,9 +88,10 @@ body {
     color: white;
 }
 .logo-text__pos {
-    margin-left: 10px;
+    margin-left: 1%;
 }
 .nav-items {
+    display: unset;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -100,7 +101,7 @@ body {
     color: white
 }
 .nav__pos {
-margin-left: 60px;
+margin-left: 5%;
 }
 .nav-item {
     margin: 0 9px;
@@ -144,7 +145,7 @@ margin-left: 60px;
     font-size: 26px;
 }
 .contacts__pos {
-    margin-left: 50px;
+    margin-left: 5%;
 }
 .instagram {
     font-family: 'Raleway', sans-serif;
@@ -154,21 +155,22 @@ margin-left: 60px;
     cursor: pointer;
 }
 .contacts-text__pos {
-    margin-left: 10px;
+    margin-left: 2%;
 }
 .phone {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 18px;
     cursor: pointer;
+    width: 180px;
 }
 .phone__pos {
-    margin-left: 50px;
+    margin-left: 4.8%;
 }
 .main-image {
     position: relative;
     width: 100%;
-    background-image: url(./assets/images/pexels-tim-douglas-6205738\ 1.png);
+    background-image: url(./assets/images/Group\ 15.png);
     background-size: 100%;
     background-repeat: no-repeat;
     top: -120px;
